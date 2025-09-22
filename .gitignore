@@ -173,3 +173,8 @@ go.work.sum
 # .idea/
 # .vscode/
 
+# AI Agent
+CLAUDE.md
+.claude
+.gemini
+.mcp.json
