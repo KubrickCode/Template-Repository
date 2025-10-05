@@ -33,9 +33,6 @@ generate-env:
   echo "Downloading secrets for dev_root..."
   doppler secrets download --project loa-work --config dev_root --format env --no-file --token "${DOPPLER_TOKEN_ROOT}" | sed 's/"//g' > .env
 
-  echo "Downloading secrets for dev_vite..."
-  doppler secrets download --project loa-work --config dev_vite --format env --no-file --token "${DOPPLER_TOKEN_VITE}" | sed 's/"//g' > "{{ frontend_dir }}/.env"
-
   echo "Environment files generated successfully."
 
 # Run pgadmin
