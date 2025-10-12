@@ -3,3 +3,4 @@
 - workflow permissions - read & write
 - general - open discussion
 - general - Automatically delete head branches Loading
+- advanced security - dependabot settings
