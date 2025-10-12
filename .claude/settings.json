@@ -5,18 +5,6 @@
     "command": "bash /workspaces/template-repository/.claude/statusline.sh"
   },
   "hooks": {
-    "UserPromptSubmit": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            // TODO: Modify to match the repository name
-            "command": "bash /workspaces/template-repository/.claude/notify.sh"
-          }
-        ]
-      }
-    ],
     "Stop": [
       {
         "matcher": "",
