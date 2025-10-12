@@ -1,7 +1,8 @@
 {
   "statusLine": {
     "type": "command",
-    "command": "bash /workspaces/general/.claude/statusline.sh"
+    // TODO: Modify to match the repository name
+    "command": "bash /workspaces/template-repository/.claude/statusline.sh"
   },
   "hooks": {
     "UserPromptSubmit": [
@@ -10,7 +11,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /workspaces/general/.claude/notify.sh"
+            // TODO: Modify to match the repository name
+            "command": "bash /workspaces/template-repository/.claude/notify.sh"
           }
         ]
       }
@@ -21,7 +23,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /workspaces/general/.claude/notify.sh"
+            // TODO: Modify to match the repository name
+            "command": "bash /workspaces/template-repository/.claude/notify.sh"
           }
         ]
       }

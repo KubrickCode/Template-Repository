@@ -1,8 +1,8 @@
 {
-  "name": "template-repository",
+  "name": "template-repository", // TODO: Modify to match the repository name
   "dockerComposeFile": "docker-compose.yml",
   "service": "workspace",
-  "workspaceFolder": "/workspaces/template-repository",
+  "workspaceFolder": "/workspaces/template-repository", // TODO: Modify to match the repository name
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "./local-features/just": {},
