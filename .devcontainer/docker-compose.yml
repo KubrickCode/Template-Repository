@@ -5,7 +5,9 @@ services:
     image: mcr.microsoft.com/devcontainers/base:bookworm
     privileged: true
     volumes:
-      # TODO: Modify to match the repository name
       - ..:/workspaces/template-repository:delegated
       - /var/run/docker.sock:/var/run/docker.sock
+      - ${HOME}/.env.secrets:/root/.env.secrets:ro
+    env_file:
+      - ${HOME}/.env.secrets
     command: sleep infinity

@@ -3,11 +3,6 @@ node_modules
 dist
 build
 
-# Generated files
-**/generated.tsx
-**/*.generated.ts
-**/*.generated.tsx
-
 # Build outputs
 coverage
 .next
