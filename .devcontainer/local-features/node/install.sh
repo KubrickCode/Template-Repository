@@ -7,5 +7,3 @@ corepack prepare pnpm@9.15.0 --activate
 
 export SHELL=/bin/bash
 pnpm setup
-
-npm install -g @anthropic-ai/claude-code
