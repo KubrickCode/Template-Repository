@@ -4,7 +4,6 @@
   "service": "workspace",
   "workspaceFolder": "/workspaces/template-repository",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "./local-features/just": {},
     "./local-features/node": {}
   },
