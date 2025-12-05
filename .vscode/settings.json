@@ -23,6 +23,12 @@
           "shortcut": "p"
         },
         {
+          "name": "Pull",
+          "command": "git pull",
+          "terminalName": "Pull",
+          "shortcut": "l"
+        },
+        {
           "name": "Commit",
           "command": "git add . && git commit --amend --no-edit",
           "terminalName": "Add and Commit Amend",
@@ -47,13 +53,6 @@
           "shortcut": "m"
         }
       ]
-    },
-    {
-      "name": "$(rocket) Release",
-      "shortcut": "r",
-      "color": "orange",
-      "command": "just release",
-      "terminalName": "Release"
     },
     {
       "name": "$(hubot) Claude",
