@@ -2,7 +2,9 @@ set dotenv-load := true
 
 root_dir := justfile_directory()
 
-deps:
+deps: deps-root
+
+deps-root:
     pnpm install
 
 lint target="all":
