@@ -1,6 +1,7 @@
 {
   "name": "template-repository",
   "dockerComposeFile": "docker-compose.yml",
+  "initializeCommand": "touch ${HOME}/.env.secrets",
   "service": "workspace",
   "workspaceFolder": "/workspaces/template-repository",
   "features": {
